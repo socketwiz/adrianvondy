@@ -27,37 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pages_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="estate_administration.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/estate_administration.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="86" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="32" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="30" selection-start="644" selection-end="644" vertical-scroll-proportion="0.52244896">
+            <state line="17" column="30" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.21238938">
               <folding />
             </state>
           </provider>
@@ -81,7 +63,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/views/pages/directions.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/bankruptcy.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/estate_planning.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
@@ -96,6 +77,7 @@
         <option value="$PROJECT_DIR$/app/views/pages/vondy.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/estate_administration.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -638,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="60" selection-start="2126" selection-end="2126" vertical-scroll-proportion="1.4579647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="66" selection-start="411" selection-end="411" vertical-scroll-proportion="0.19591837">
@@ -654,7 +629,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.48979592">
           <folding />
         </state>
       </provider>
@@ -675,7 +650,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="644" selection-end="644" vertical-scroll-proportion="0.52244896">
+        <state line="17" column="30" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.21238938">
           <folding />
         </state>
       </provider>
