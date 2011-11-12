@@ -2,13 +2,87 @@
 <html>
 <head>
   <title>Adrian &amp; Vondy P.L.C.</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag "application" %>
+  <%#= javascript_include_tag "application" %>
+  <%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" %>
+  <%= javascript_include_tag "jquery.nivo.slider" %>
+  <%= javascript_include_tag "plugins" %>
+  <%= javascript_include_tag "script" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+<div id="container">
+  <!-- Header -->
+  <div id="header">
+    <div id="logo"><%= link_to "Adrian & Vondy, P.L.C.", root_path %></div>
+    <div id="personal_data">
+      <p>Phone <span>(540) 667-8735</span></p>
+
+      <p>Facsimile <span>(540) 667-8128</span></p>
+    </div>
+  </div>
+  <div id="menu" class="png_bg">
+    <ul>
+      <li class="selected"><%= link_to "Home", root_path %></li>
+      <li><%= link_to "Directions", directions_path %></li>
+    </ul>
+  </div>
+  <!-- /Header -->
+
+  <!-- Main content alpha -->
+  <div class="main png_bg">
+    <div class="inner_main">
+      <%= yield %>
+    </div>
+  </div>
+  <div class="endmain png_bg"></div>
+  <!-- /Main content alpha -->
+
+  <!-- Footer styling transition (the stripe). You can remove it if you don't like it -->
+  <div class="stripe png_bg"></div>
+  <!-- /Footer styling transition -->
+
+  <!-- Footer -->
+  <div id="footer_top" class="png_bg"></div>
+  <div id="footer" class="png_bg">
+    <div class="gs_2 widget">
+      <h4 class="widgettitle">Pages</h4>
+      <ul>
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Directions", directions_path %></li>
+      </ul>
+    </div>
+    <div class="gs_4 widget">
+      <h4 class="widgettitle">Attorney's At Law</h4>
+
+      <ul>
+        <li><%= link_to "P. Kay Adrian", adrian_path %></li>
+        <li><%= link_to "Frederick S. Vondy", vondy_path %> (also licensed in West Virginia and Maryland)</li>
+      </ul>
+    </div>
+    <div class="gs_4 omega widget">
+      <h4 class="widgettitle">Office Staff</h4>
+
+      <ul>
+        <li><%= link_to "Tiffany A. H. Merkel", tiffany_path %> Paralegal</li>
+        <li><%= link_to "Annette McCracken", annette_path %> Legal Assistant</li>
+      </ul>
+    </div>
+  </div>
+  <div id="footer_bottom" class="png_bg">
+    <p>Copyrights &copy; <%= link_to "Adrian & Vondy, P.L.C.", root_path %> <%= Time.now.strftime("%Y") %>. All rights
+      reserved.</p></div>
+  <!-- /footer -->
+
+
+</div>
+<!--! end of #container -->
+
+<!--[if lt IE 7 ]>
+  <%= javascript_include_tag "libs/dd_belatedpng.js" %>
+  <script> DD_belatedPNG.fix('img, .png_bg, .sidebar, .sidebar ul, .sidebar ul li, .sidebar ul li a'); //fix any <img> or .png_bg background-images </script>
+<![endif]-->
 
 </body>
 </html>

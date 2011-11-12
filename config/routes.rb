@@ -1,6 +1,17 @@
 Adrianvondy::Application.routes.draw do
 
-  get "pages/contact"
+  match "/bankruptcy" => "pages#bankruptcy", :as => :bankruptcy
+  match "/directions" => "pages#directions", :as => :directions
+  match "/estate_administration" => "pages#estate_administration", :as => :estate_administration
+  match "/estate_planning" => "pages#estate_planning", :as => :estate_planning
+  match "/real_estate" => "pages#real_estate", :as => :real_estate
+  match "/guardianship" => "pages#guardianship", :as => :guardianship
+  match "/social_security" => "pages#social_security", :as => :social_security
+
+  match "/adrian" => "pages#adrian", :as => :adrian
+  match "/annette" => "pages#annette", :as => :annette
+  match "/tiffany" => "pages#tiffany", :as => :tiffany
+  match "/vondy" => "pages#vondy", :as => :vondy
 
   root :to => 'pages#index'
 
