@@ -3,12 +3,14 @@ class PagesController < ApplicationController
     @title = "Adrian & Vondy Law Firm in Winchester, Virginia"
     @description = "Winchester law firm Adrian & Vondy P.L.C. practices in the fields of bankruptcy, Social Security Disability, Wills, Trusts, Estate Planning, Probate, Guardianships and Real Estate."
     @keywords = "Winchester lawyer attorney bankruptcy Social Security Disability Wills Trusts Estate Planning Probate Guardianships Real Estate"
+    @selected = "index"
   end
 
   def directions
     @title = "Adrian & Vondy Map in Winchester, Virginia"
     @description = "Location of offices of Adrian & Vondy, P.L.C., in Winchester, Virginia."
     @keywords = "Winchester lawyer attorney bankruptcy Social Security Disability Wills Trusts Estate Planning Probate Guardianships Real Estate"
+    @selected = "directions"
   end
 
   def bankruptcy

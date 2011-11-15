@@ -24,8 +24,8 @@
   </div>
   <div id="menu" class="png_bg">
     <ul>
-      <li class="selected"><%= link_to "Home", root_path %></li>
-      <li><%= link_to "Directions", directions_path %></li>
+      <li <% if @selected == "index" %>class="selected"<% end %>><%= link_to "Home", root_path %></li>
+      <li <% if @selected == "directions" %>class="selected"<% end %>><%= link_to "Directions", directions_path %></li>
     </ul>
   </div>
   <!-- /Header -->
