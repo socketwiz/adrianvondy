@@ -14,7 +14,7 @@ class PagesController < ApplicationController
   end
 
   def bankruptcy
-    @title = ": Adrian & Vondy Bankruptcy Practice"
+    @title = "Adrian & Vondy Bankruptcy Practice"
     @description = "Adrian & Vondy, a Winchester law firm, has helped hundreds of debtors in Virginia and West Virginia resolve debt problems, outstanding judgments, wage garnishments and lawsuits through their bankruptcy practice"
     @keywords = "Winchester lawyer attorney bankruptcy debt garnishments lawsuits"
   end
