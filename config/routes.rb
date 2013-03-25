@@ -1,4 +1,4 @@
-Adrianvondy::Application.routes.draw do
+RailsApp::Application.routes.draw do
 
   match "/bankruptcy" => "pages#bankruptcy", :as => :bankruptcy
   match "/directions" => "pages#directions", :as => :directions

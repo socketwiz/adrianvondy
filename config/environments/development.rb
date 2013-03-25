@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-Adrianvondy::Application.configure do
-  # Settings specified here will take precedence over those in config/application.rb
-
-  # In the development environment your application's code is reloaded on
-  # every request.  This slows down response time but is perfect for development
-=======
 RailsApp::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
->>>>>>> c745e37b41c46e6db01fadc78ca3c308e1897a04
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
@@ -30,8 +22,6 @@ RailsApp::Application.configure do
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
 
-<<<<<<< HEAD
-=======
   # Raise exception on mass assignment protection for Active Record models
   config.active_record.mass_assignment_sanitizer = :strict
 
@@ -39,7 +29,6 @@ RailsApp::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   config.active_record.auto_explain_threshold_in_seconds = 0.5
 
->>>>>>> c745e37b41c46e6db01fadc78ca3c308e1897a04
   # Do not compress assets
   config.assets.compress = false
 
