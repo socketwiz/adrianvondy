@@ -6,7 +6,6 @@ RailsApp::Application.routes.draw do
   match "/estate_planning" => "pages#estate_planning", :as => :estate_planning
   match "/real_estate" => "pages#real_estate", :as => :real_estate
   match "/guardianship" => "pages#guardianship", :as => :guardianship
-  match "/social_security" => "pages#social_security", :as => :social_security
 
   match "/adrian" => "pages#adrian", :as => :adrian
   match "/annette" => "pages#annette", :as => :annette
