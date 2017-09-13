@@ -1,6 +1,6 @@
 {
   "name": "AdrianVondy",
-  "homepage": "https://socketwiz.github.io/adianvondy",
+  "homepage": "https://socketwiz.github.io/adrianvondy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "build": "react-scripts build",
-+   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "server": "node server",
