@@ -6,6 +6,8 @@ import React from 'react';
 import slide1 from './images/slides/slide1.jpg';
 
 export default function AdrianVondy() {
+    document.title = 'Adrian & Vondy Law Firm in Winchester, Virginia';
+
     return (
         <Main>
             <div className="container_alpha slider">
@@ -39,10 +41,18 @@ export default function AdrianVondy() {
                     <p className="areas_of_practice">
                         <Link to="/bankruptcy">Bankruptcy, Free Initial Consultation</Link>
                     </p>
-                    <p className="areas_of_practice"><Link to="/estate">Estate Planning, Wills and Trusts</Link></p>
-                    <p className="areas_of_practice"><Link to="/probate">Estate Administration and Probate</Link></p>
-                    <p className="areas_of_practice"><Link to="/real-estate">Real Estate Settlements</Link></p>
-                    <p className="areas_of_practice"><Link to="/guardianships">Guardianships</Link></p>
+                    <p className="areas_of_practice">
+                        <Link to="/estate_planning">Estate Planning, Wills and Trusts</Link>
+                    </p>
+                    <p className="areas_of_practice">
+                        <Link to="/estate_planning">Estate Administration and Probate</Link>
+                    </p>
+                    <p className="areas_of_practice">
+                        <Link to="/real_estate">Real Estate Settlements</Link>
+                    </p>
+                    <p className="areas_of_practice">
+                        <Link to="/guardianship">Guardianships</Link>
+                    </p>
                 </div>
             </div>
         </Main>

@@ -7,7 +7,7 @@ export default class Header extends Component {
     render() {
         return <div>
             <div id="header">
-                <div id="logo"><img src={logo} alt="Adrian Vondy" /></div>
+                <div id="logo"><Link to="/"><img src={logo} alt="Adrian Vondy" /></Link></div>
                 <div id="personal_data">
                     <p>Phone <span>(540) 667-8735</span></p>
                     <p>Facsimile <span>(540) 667-8128</span></p>
