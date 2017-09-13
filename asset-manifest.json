@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.c536c5f5.css",
   "main.css.map": "static/css/main.c536c5f5.css.map",
-  "main.js": "static/js/main.80f9d75a.js",
-  "main.js.map": "static/js/main.80f9d75a.js.map",
+  "main.js": "static/js/main.fac72c5f.js",
+  "main.js.map": "static/js/main.fac72c5f.js.map",
   "static/media/TitilliumText22L004-webfont.eot": "static/media/TitilliumText22L004-webfont.a95f3487.eot",
   "static/media/TitilliumText22L004-webfont.svg": "static/media/TitilliumText22L004-webfont.04b96724.svg",
   "static/media/TitilliumText22L004-webfont.ttf": "static/media/TitilliumText22L004-webfont.2454057f.ttf",
@@ -11,8 +11,11 @@
   "static/media/TitilliumText22L005-webfont.svg": "static/media/TitilliumText22L005-webfont.8c545ddc.svg",
   "static/media/TitilliumText22L005-webfont.ttf": "static/media/TitilliumText22L005-webfont.07416bbd.ttf",
   "static/media/TitilliumText22L005-webfont.woff": "static/media/TitilliumText22L005-webfont.443d97e1.woff",
+  "static/media/annette_mccracken.jpg": "static/media/annette_mccracken.e363d339.jpg",
   "static/media/background.png": "static/media/background.501ce415.png",
+  "static/media/kay_adrian.jpg": "static/media/kay_adrian.bd1cf719.jpg",
   "static/media/loading.gif": "static/media/loading.0f33d12a.gif",
   "static/media/logo.png": "static/media/logo.30e48c5b.png",
-  "static/media/slide1.jpg": "static/media/slide1.465332d6.jpg"
+  "static/media/slide1.jpg": "static/media/slide1.465332d6.jpg",
+  "static/media/tiffany_merkel.jpg": "static/media/tiffany_merkel.7391ed8d.jpg"
 }
