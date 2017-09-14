@@ -1,5 +1,5 @@
 
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 import Adrian from './components/adrian';
 import AdrianVondy from './components/adrianvondy';
 import Annette from './components/annette';
@@ -14,7 +14,7 @@ import ReactDOM from 'react-dom';
 import Tiffany from './components/tiffany';
 
 ReactDOM.render(
-    <BrowserRouter>
+    <HashRouter>
         <Switch>
             <Route exact path="/" component={AdrianVondy} />
             <Route exact path="/adrian" component={Adrian} />
@@ -27,6 +27,6 @@ ReactDOM.render(
             <Route exact path="/real_estate" component={RealEstate} />
             <Route exact path="/tiffany" component={Tiffany} />
         </Switch>
-    </BrowserRouter>,
+    </HashRouter>,
     document.getElementById('root')
 );
