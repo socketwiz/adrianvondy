@@ -1,4 +1,5 @@
 
+import FrederickVondy from './frederick_vondy.jpg';
 import Main from '../../layouts/main';
 import React from 'react';
 
@@ -8,6 +9,7 @@ export default function Frederick() {
     return (
         <Main>
             <div className="container_omega">
+                <img alt="Frederick Vondy" className="alignleft" src={FrederickVondy} />
                 <p>Frederick S. Vondy earned his undergraduate degree in Greek and Latin
                     from Columbia University in New York, and was awarded a Juris Doctor
                     (with honors) by the University of Maryland.</p>

@@ -39,9 +39,6 @@ export default function AdrianVondy() {
                 <div className="gs_3 omega">
                     <h3 className="widgettitle">Our Primary Areas of Practice</h3>
                     <p className="areas_of_practice">
-                        <Link to="/bankruptcy">Bankruptcy, Free Initial Consultation</Link>
-                    </p>
-                    <p className="areas_of_practice">
                         <Link to="/estate_planning">Estate Planning, Wills and Trusts</Link>
                     </p>
                     <p className="areas_of_practice">

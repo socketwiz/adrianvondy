@@ -10,14 +10,14 @@ export default function Adrian() {
         <Main>
             <div className="container_omega">
                 <p>
-                    <img alt="Kay_adrian" className="alignleft" src={AdrianVondy} />
+                    <img alt="Kay Adrian" className="alignleft" src={AdrianVondy} />
                     <strong>Kay Adrian</strong> earned her undergraduate degree with honors in
                     the teaching of social studies  from the University of Illinois, and was
                     awarded a Juris Doctor degree by Loyola University in Chicago.<br />
                     <br />
-                    Her primary areas of practice involve representing, representing debtors
-                    in bankruptcy proceedings, and establishing guardianships and conservatorships
-                    for the incapacitated and disabled.<br />
+                    Her primary areas of practice involve representing,
+                    establishing guardianships and conservatorships for the
+                    incapacitated and disabled.
                 </p>
             </div> 
         </Main>
