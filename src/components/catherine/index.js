@@ -1,4 +1,5 @@
 
+import CatherineMarsten from './catherine-marsten.jpg';
 import Main from '../../layouts/main';
 import React from 'react';
 
@@ -9,6 +10,7 @@ export default function Catherine() {
     <Main>
       <div className="container_omega">
         <p>
+          <img alt="Catherine Marsten" className="alignleft" src={CatherineMarsten} />
           Catherine Marsten is currently a student at Lord Fairfax Community
           College, where she is in the process of earning of an Associate of Arts
           degree in Paralegal Studies. Following that, she plans to pursue
