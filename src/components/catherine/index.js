@@ -17,9 +17,9 @@ export default function Catherine() {
           a Bachelor of Arts degree.
         </p>
         <p>
-          Catherine primarly provides general office support, focusing primarily
-          on real estate settlements, estate planning, and estate administration.
-          Previously, she worked in the vetinary and customer service fields.
+          Catherine primarily provides general office support, focusing on
+          real estate settlements, estate planning and estate administration.
+          Previously, she worked in the veterinary and customer service fields.
         </p>
       </div> 
     </Main>
