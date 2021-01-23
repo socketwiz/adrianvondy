@@ -5,27 +5,29 @@ import Header from '../components/header.js';
 import PropTypes from 'prop-types';
 
 export default class Main extends Component {
-    render() {
-        const {children} = this.props;
+  render() {
+    const {children} = this.props;
 
-        return <div id="container">
-            <Header />
+    return (
+      <div id="container">
+        <Header />
 
-            <div className="main png_bg">
-                <div className="inner_main">
-                    {children}
-                </div>
-            </div>
-            <div className="endmain png_bg"></div>
+        <div className="main png_bg">
+          <div className="inner_main">
+            {children}
+          </div>
+        </div>
+        <div className="endmain png_bg"></div>
 
-            <Footer />
-        </div>;
-    }
+        <Footer />
+      </div>
+    );
+  }
 }
 
 Main.propTypes = {
-    'children': PropTypes.oneOfType([
-        PropTypes.array,
-        PropTypes.object
-    ])
+  'children': PropTypes.oneOfType([
+    PropTypes.array,
+    PropTypes.object
+  ])
 };
