@@ -1,28 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.be14a6a0.chunk.css",
-    "main.js": "/static/js/main.dc4aded9.chunk.js",
-    "main.js.map": "/static/js/main.dc4aded9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.94d4df6c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.94d4df6c.js.map",
-    "static/js/2.edf9e9f8.chunk.js": "/static/js/2.edf9e9f8.chunk.js",
-    "static/js/2.edf9e9f8.chunk.js.map": "/static/js/2.edf9e9f8.chunk.js.map",
+    "main.css": "/static/css/main.f2198c83.chunk.css",
+    "main.js": "/static/js/main.2eec1efd.chunk.js",
+    "main.js.map": "/static/js/main.2eec1efd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9f484c16.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9f484c16.js.map",
+    "static/js/2.24631b6c.chunk.js": "/static/js/2.24631b6c.chunk.js",
+    "static/js/2.24631b6c.chunk.js.map": "/static/js/2.24631b6c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bb5eea249c2c00725b34a2c33147f7bc.js": "/precache-manifest.bb5eea249c2c00725b34a2c33147f7bc.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.be14a6a0.chunk.css.map": "/static/css/main.be14a6a0.chunk.css.map",
-    "static/js/2.edf9e9f8.chunk.js.LICENSE.txt": "/static/js/2.edf9e9f8.chunk.js.LICENSE.txt",
-    "static/media/adrianvondy.css": "/static/media/loading.0f33d12a.gif",
-    "static/media/catherine-marsten.jpg": "/static/media/catherine-marsten.3ec746e6.jpg",
-    "static/media/frederick_vondy.jpg": "/static/media/frederick_vondy.ffaa4ce3.jpg",
-    "static/media/kay_adrian.jpg": "/static/media/kay_adrian.bd1cf719.jpg",
-    "static/media/logo.png": "/static/media/logo.30e48c5b.png",
-    "static/media/slide1.jpg": "/static/media/slide1.465332d6.jpg"
+    "static/css/main.f2198c83.chunk.css.map": "/static/css/main.f2198c83.chunk.css.map",
+    "static/js/2.24631b6c.chunk.js.LICENSE.txt": "/static/js/2.24631b6c.chunk.js.LICENSE.txt",
+    "static/media/adrianvondy.css": "/static/media/loading.1127ef34.gif",
+    "static/media/catherine-marsten.5db9fbd5.jpg": "/static/media/catherine-marsten.5db9fbd5.jpg",
+    "static/media/frederick_vondy.1118fc2c.jpg": "/static/media/frederick_vondy.1118fc2c.jpg",
+    "static/media/kay_adrian.1ec079a2.jpg": "/static/media/kay_adrian.1ec079a2.jpg",
+    "static/media/logo.4281772b.png": "/static/media/logo.4281772b.png",
+    "static/media/slide1.0a78fc0a.jpg": "/static/media/slide1.0a78fc0a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.94d4df6c.js",
-    "static/js/2.edf9e9f8.chunk.js",
-    "static/css/main.be14a6a0.chunk.css",
-    "static/js/main.dc4aded9.chunk.js"
+    "static/js/runtime-main.9f484c16.js",
+    "static/js/2.24631b6c.chunk.js",
+    "static/css/main.f2198c83.chunk.css",
+    "static/js/main.2eec1efd.chunk.js"
   ]
 }
