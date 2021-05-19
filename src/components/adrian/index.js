@@ -11,13 +11,11 @@ export default function Adrian() {
       <div className="container_omega">
         <p>
           <img alt="Kay Adrian" className="alignleft" src={AdrianVondy} />
-          <strong>Kay Adrian</strong> earned her undergraduate degree with honors in
-          the teaching of social studies  from the University of Illinois, and was
-          awarded a Juris Doctor degree by Loyola University in Chicago.<br />
-          <br />
-          Her primary areas of practice involve representing,
-          establishing guardianships and conservatorships for the
-          incapacitated and disabled.
+          <strong>Kay Adrian</strong> has retired from the active practice of
+          law but remains of counsel to the firm.  She earned her undergraduate
+          degree with honors in the teaching of social studies from the
+          University of Illinois, and was awarded a Juris Doctor degree by
+          Loyola University in Chicago.
         </p>
       </div> 
     </Main>
