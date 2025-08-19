@@ -8,6 +8,6 @@ title = "Frederick S. Vondy of Adrian & Vondy P.L.C"
 
 He currently serves as the Commissioner of Accounts for Frederick County, Virginia, supervising and auditing the work of fiduciaries handling decedents’ estates, trusts, conservatorships and foreclosures.
 
-His private practice is limited to wills and estate planning. He is licensed to practice law in Virginia, Maryland and West Virginia.
+His private practice is limited to wills and estate planning. He is licensed to practice law in Virginia.
 
 For many years he represented Frederick County on the Northwestern Community Services   Board, and he was an adjunct professor at Lord Fairfax Community College. He previously worked as an editor at the Rocky Mountain News in Denver, the Chicago Sun-Times and the Baltimore Sun.
